@@ -53,10 +53,13 @@ body {
 
 /* Contacts page */
 .map-box {
-	width: auto;
+	width: 100%;
 	max-width: 1024px;
 	margin-top: 0;
 }
+	.map-box iframe {
+		max-width: 100% !important;
+	}
 .contact-form textarea {
 	width: auto;
 	min-width: auto;
