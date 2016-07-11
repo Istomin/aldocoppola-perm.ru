@@ -1,0 +1,156 @@
+body {
+	min-width: 320px;
+}
+#wrapper {
+
+}
+.center {
+	width: auto;
+	max-width: 938px;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+#header {
+	height: 126px;
+	box-sizing: border-box;
+}
+#main {
+	width: 100% !important;
+	max-width: 940px;
+}
+#burger_menu {
+	position: absolute;
+	right: 15px;
+	top: 40px;
+	display: none;
+	width: 40px;
+	height: 30px;
+	background: url(images/burger.png);
+	background-size: cover;
+}
+	#burger_menu:hover,
+	#burger_menu:active,
+	#burger_menu:visited {
+		text-decoration: none;
+	}
+.home-gallery {
+	width: 100%;
+	max-width: 1024px;
+	margin-top: 0;
+}
+	.home-gallery .slides li {
+		height: 100%;
+		overflow: hidden;
+	}
+	.home-gallery img {
+		display: block;
+		width: auto;
+		min-width: 100%;
+		height: auto;
+		height: 100%;
+	}
+
+.list-row .text-holder {
+	width: 575px;
+}
+.text-row p {
+	padding: 0 10px;
+}
+
+.news .column {
+	width: auto;
+}
+/*#footer .developer {
+	margin: 0 5px 0 10px;
+}*/
+
+@media screen and (max-width: 1280px) {
+	.list-row .text-holder {
+		float: none;
+		width: 100%;
+		margin-top: 0;
+	}
+	.alignright {
+		float: left;
+	}
+}
+@media screen and (max-width: 980px) {
+	.logo {
+		float: none;
+		/*display: block;
+		margin: 0 auto;*/
+		position: absolute;
+		top: 0;
+		left: calc(50% - 50px);
+	}
+	.contacts-box {
+		display: none;
+	}
+	#nav {
+		display: none;
+		/*position: absolute;*/
+		top: 109px; left: -44px;
+		/*overflow: auto;*/
+		z-index: 9999;
+	}
+		#nav.active {display: block;}
+	#nav li {
+		float: none;
+		display: block;
+		border-bottom: 1px solid #343230;
+		background-color: rgba(0, 0, 0, 0.90);
+	}
+	#nav li a {font-size: 16px;}
+	#burger_menu {
+		display: block;
+	}
+/*	#main .list-row .services-list {
+		width: 100%;
+		float: none;
+	}*/
+	/*.news .column {}*/
+	#footer {
+		display: none;
+	}
+}
+@media screen and (max-width: 840px) {
+	#main .list-row .services-list {
+		float: none;
+		width: 100%;
+		clear: left;
+		box-sizing: border-box;
+	}
+	#main .list-row .services-list li {
+		float: left;
+		width: 50%;
+		box-sizing: border-box;
+	}
+	.alignright {
+		float: none;
+		max-width: 100%;
+		height: auto;
+	}
+	h3 span {
+		white-space: normal;
+	}
+	.list-row .text-holder {
+		/*position: static;*/
+		/*max-width: 100%;*/
+		float: left;
+		margin-top: 116px;
+		/*white-space: normal;*/
+	}
+}
+@media screen and (max-width: 720px) {
+	.home-gallery {
+		display: none;
+	}
+	.news .column {
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+	.news .column:first-child {
+		width: 100%;
+	}
+}
