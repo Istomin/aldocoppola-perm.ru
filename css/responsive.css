@@ -60,9 +60,11 @@ body {
 	.map-box iframe {
 		max-width: 100% !important;
 	}
+
 .contact-form textarea {
-	width: auto;
+	width: 100%;
 	min-width: auto;
+	box-sizing: border-box;
 }
 
 @media screen and (max-width: 1280px) {
@@ -82,7 +84,7 @@ body {
 		position: absolute;
 		top: 40px;
 		left: 50%;
-		transform: translateY(-50%);
+		transform: translateY(-50%) translateX(-50%);
 	}
 
 	.contacts-box {
@@ -95,10 +97,11 @@ body {
 	#burger_menu {
 		position: absolute;
 		right: 15px;
-		top: 40px;
+		top: 25px;
 		display: none;
 		width: 54px;
-		height: 41px;
+		height: 32px;
+		padding-top: 17px;
 
 	}
 
@@ -209,9 +212,28 @@ body {
 	}
 }
 @media screen and (max-width: 720px) {
+	h3 {
+		line-height: 21px;
+		font-size: 15px;
+	}
+	.home-gallery .text-holder,
+	.home-gallery .panel {
+		left: 15px;
+	}
+	.home-gallery h1 {
+		line-height: 25px;
+	}
+	.home-gallery h1 span {
+		height: auto;
+		padding: 5px 23px 5px 10px;
+	}
+	.list-row .text-holder {
+		margin-top: 75px;
+	}
 	.news .column {
 		width: 100%;
 		padding: 0;
+		margin-bottom: 15px;
 		text-align: center;
 	}
 
@@ -229,12 +251,6 @@ body {
 	}
 }
 @media screen and (max-width: 450px) {
-	.contact-form input[type="text"], .contact-form textarea {
-		float: none;
-		display: block;
-		width: 100%;
-		box-sizing: border-box;
-	}
 	.captcha {
 		padding: 0;
 		margin-top: 15px;
