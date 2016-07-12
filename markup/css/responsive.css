@@ -77,6 +77,26 @@ body {
 	box-sizing: border-box;
 }
 
+/* Servises page */
+#main .services-list {
+	width: 100%;
+}
+.services-list li {
+	float: left;
+	width: 33.333333%;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Press page */
+#main .years li {
+	margin-bottom: 5px;
+}
+#main .archives {
+	width: auto;
+	max-width: 723px;
+}
+
 @media screen and (max-width: 1280px) {
 	.list-row .text-holder {
 		float: none;
@@ -272,6 +292,10 @@ body {
 	.contact-form label {
 		width: 100%;
 	}
+	/* Servises page */
+	.services-list li {
+		width: 50%;
+	}
 }
 @media screen and (max-width: 450px) {
 	h1 {
@@ -288,5 +312,9 @@ body {
 	/* News page */
 	#main .paging a, #main .paging span {
 		padding: 0 8px;
+	}
+	/* Servises page */
+	.services-list li {
+		width: 100%;
 	}
 }

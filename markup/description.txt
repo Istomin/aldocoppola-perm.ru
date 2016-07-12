@@ -15,3 +15,6 @@
 
 - On all pages added the meta tag:
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+- United three lists into one list on the servises page
+		line 54 .services-list
