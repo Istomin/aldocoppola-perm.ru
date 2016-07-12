@@ -1,3 +1,8 @@
+html {
+   <code><span class="pun">-</span><span class="pln">webkit</span><span class="pun">-</span><span class="pln">text</span><span class="pun">-</span><span class="pln">size</span><span class="pun">-</span><span class="pln">adjust</span><span class="pun">:</span><span class="pln"> </span><span class="lit">100</span><span class="pun">%;</span></code>
+   text-size-adjust:100%
+}
+
 body {
 	min-width: 320px;
 }
@@ -61,6 +66,14 @@ body {
 	width: auto;
 }
 
+#main .list-row .services-list li {
+	width: 100%;
+}
+
+.text-holder h3 {
+	overflow: visible;
+}
+
 /* Contacts page */
 .map-box {
 	width: 100%;
@@ -86,6 +99,13 @@ body {
 	width: 33.333333%;
 	margin: 0;
 	box-sizing: border-box;
+}
+
+/* Press page */
+.news-img {
+	width: 230px;
+	height: 250px;
+	overflow: hidden;
 }
 
 /* Press page */
@@ -283,6 +303,12 @@ body {
 	.news .column:first-child {
 		width: 100%;
 	}
+
+	.news-img {
+		width: 100%;
+		height: 100%;
+	}
+
 	/* Contacts page */
 	.contact-box .alignleft {
 		width: 100%;
@@ -295,6 +321,20 @@ body {
 	/* Servises page */
 	.services-list li {
 		width: 50%;
+	}
+
+	/* Product page */
+	.product-block a {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
+	.product-block a img {
+		float: none;
+		margin: 0;
+	}
+	.product-block .text-holder {
+		width: 100%;
 	}
 }
 @media screen and (max-width: 450px) {
@@ -309,6 +349,7 @@ body {
 		padding: 0;
 		text-align: center;
 	}
+
 	/* News page */
 	#main .paging a, #main .paging span {
 		padding: 0 8px;

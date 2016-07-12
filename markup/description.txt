@@ -18,3 +18,5 @@
 
 - United three lists into one list on the servises page
 		line 54 .services-list
+
+- replace style attribute to the class "news img" on the news page
