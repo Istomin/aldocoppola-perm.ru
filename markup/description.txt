@@ -1,22 +1,22 @@
-- On all pages connected these files:
+- Подключил:
 		responsive.css, responsive.js
 
-- On all pages added burger:
+- На всех страницах добавил бургер:
 		<a href="#" id="burger_menu"><span></span></a>
 
-- On the main gallery in the class instead of the slider slides set
+- на главной в галерее заменил класс
 
-- Replaced the slider plugin on the main: 
+- добавил следующие подключения для галереи: 
 		<link rel="stylesheet" href="css/jquery.bxslider.css" />
 		<script src="js/jquery.bxslider.min.js"></script>
 
-- Added jquery library on the main page:
+- добавил jquery.min.js:
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-- On all pages added the meta tag:
+- везде добавил
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-- United three lists into one list on the servises page
+- Объеденил 3 списка в один
 		line 54 .services-list
 
-- replace style attribute to the class "news img" on the news page
+- на странице новостей заменил класс на "news img"
